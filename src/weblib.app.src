@@ -1,0 +1,15 @@
+{application, weblib,
+ [{description, "A Web Protocol Library"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, ["vans163"]},
+  {licenses, ["GPL-3"]},
+  {links,[{"Github", "https://github.com/vans163/weblib"}]}
+ ]}.
